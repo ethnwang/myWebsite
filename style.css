@@ -1,0 +1,17 @@
+h2{
+    background-color: #607d8b;
+    color: #ffffff;
+}
+
+.highlight{
+    background-color: blue;
+}
+
+#navigation{
+    background-color: blueviolet;
+}
+
+.title{
+    font-size: 65px;
+    text-align: center;
+}

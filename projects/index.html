@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href = "../style.css">
-        <title> Ethan's Website</title>
-    </head>
-    <body>
-        <a href="/">Home</a>
-        <a href="/contactMe/">Contact Me</a>
-        <ol>
-            <li><a href="/projects/firstProject/">First Project</a></li>
-        
-        </ol>
-        
-        <h1 class="title">Ethan's Projects</h1>
-        <h2>Welcome!</h2>
-        <p>Heyyyyy. This is my projects page where you can see all the projects that I've done.</p>
-    </body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- ^ the viewport meta tag is to make your webpage responsive according to screen size -->
+	<title>Ethan Wang</title>
+	<!-- ^ your webpage's title -->
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<!-- ^ where we link our CSS file to our webpage -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+	<!-- Order Matters! first = on top -->
+	<!-- div = divider to group or seperate elements -->
+	<div class="card">
+		<h1>Projects!</h1>
+		<!-- Header -->
+		<p>Here are some of the projects I have done in the past!</p>
+		<!-- Paragraph -->
+		<ul>
+			<li><a href="../projects/firstProject/index.html">Website</a></li>
+		</ul>
+		<a href="/about/about.html">About Me</a>
+        <a href="/contactMe/contact.html">Contact Me</a>
+        <a href="/index.html">Home</a>
+		<!-- Link! -->
+	</div>
+
+	<script src="../script.js">
+
+	</script>
+	<!-- ^ where we link our JS file to our webpage (we don't need to worry about this for now!) -->
+</body>
 
 </html>
 

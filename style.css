@@ -21,15 +21,20 @@ body {
     padding: 16px 0px;
 }
 
+.navigation{
+    color: black;
+}
+
 img {
-    height: 150px;
+    height: 250px;
     border-radius: 50%;
 }
 
 a {
-    color: rgb(253, 233, 233);
+    color: black;
     /* text-decoration: none; */
 }
+
 
 #facebook {
     color: blue;
